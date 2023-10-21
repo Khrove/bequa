@@ -5,10 +5,6 @@
         "target": "es2022",
         "types": [
             "node",
-            "@wdio/globals/types",
-            "expect-webdriverio",
-            "@wdio/mocha-framework",
-            "wdio-vite-service"
         ],
         "skipLibCheck": true,
         "noEmit": true,
@@ -20,7 +16,6 @@
     },
     "include": [
         "test",
-        "wdio.conf.ts"
     ],
     "exclude": ["node_modules"]
 }
