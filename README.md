@@ -16,11 +16,13 @@ End User UI:
 
 ## Code Design Paradigm
 
-This project uses a combination of Functional based [POM](https://www.browserstack.com/guide/page-object-model-in-selenium#:~:text=Page%20Object%20Model%2C%20also%20known,application%20as%20a%20class%20file.) + [Composite theory](https://x-team.com/blog/understanding-the-composite-pattern/#:~:text=The%20composite%20pattern%20organizes%20code,them%20up%20into%20larger%20ones.) + [mixin desing](https://www.patterns.dev/posts/mixin-pattern)
+This project uses a combination of Functional based [POM](https://www.browserstack.com/guide/page-object-model-in-selenium#:~:text=Page%20Object%20Model%2C%20also%20known,application%20as%20a%20class%20file.) + [Composite theory](https://x-team.com/blog/understanding-the-composite-pattern/#:~:text=The%20composite%20pattern%20organizes%20code,them%20up%20into%20larger%20ones.) + [mixin design](https://www.patterns.dev/posts/mixin-pattern)
 
 Essentially, this is your typical page object model code design, but in a functional manner. This explores using functions to hold CSS selectors + interactions with the page rather than object oriented classes. The thought process behind this is functions compile faster than objects so this will help performance and the overall dev experience.
 
 Examples of this can be found [here](https://github.com/Khrove/bequa/blob/main/pages/Search.page.ts)
+
+<img src="code-images/pom.png" alt="Logo" width="160" height="160">
 
 ## Why Docker?
 
