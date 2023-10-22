@@ -22,7 +22,7 @@ Essentially, this is your typical page object model code design, but in a functi
 
 Examples of this can be found [here](https://github.com/Khrove/bequa/blob/main/pages/Search.page.ts)
 
-<img src="code-images/pom.png" alt="Logo" width="2048" height="1128">
+<img src="code-images/pom.png" alt="Logo" width="1720" height="1128">
 
 ## Why Docker?
 
