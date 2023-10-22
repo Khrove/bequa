@@ -22,8 +22,6 @@ Essentially, this is your typical page object model code design, but in a functi
 
 Examples of this can be found [here](https://github.com/Khrove/bequa/blob/main/pages/Search.page.ts)
 
-<img src="code-images/pom.png" alt="Logo" width="1720" height="980">
-
 ## Why Docker?
 
 There really is no use for Docker in this project, it was included as a means of practicing with PlaywrightJS + Docker but the thought process here is that anyone can pull down this repo to their machine, install the dependencies and execute the code. They do not need to have Chromium, webkit, or firefox installed on their machine and this will "just work."
