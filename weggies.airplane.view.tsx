@@ -1,6 +1,6 @@
 import {
     Stack,
-    Heading, TextInput, Button, useComponentState, Textarea, Table, Loader, useTaskQuery, Callout, Text, useTaskMutation
+    Heading, TextInput, Button, useComponentState, Textarea, Table, Loader, Callout, Text, useTaskMutation
 } from "@airplane/views";
 import airplane from "airplane";
 
