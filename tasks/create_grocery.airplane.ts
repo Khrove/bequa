@@ -43,7 +43,7 @@ export default airplane.task(
             const aisle = await searchOperations.getProductAisle(toSearch[i]);
             const price = await searchOperations.getProductPrice(toSearch[i]);
             const productTitle = await searchOperations.getProductTitle(toSearch[i]);
-            airplane.appendOutput({ product: productTitle, aisle, price });
+            airplane.appendOutput({ productTitle, aisle, price });
         }
 
         await browser.close();
