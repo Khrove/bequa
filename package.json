@@ -1,12 +1,15 @@
 {
-  "devDependencies": {
-    "@playwright/test": "^1.39.0",
-    "@types/node": "^20.8.7"
-  },
   "scripts": {
     "playwright": "npx playwright test",
     "test": "playwright test --browser=chromium",
     "test-html-report": "playwright test --browser=chromium --reporter=html",
     "test-json-report": "PLAYWRIGHT_JSON_OUTPUT_NAME=results.json playwright test --browser=chromium --reporter=json"
+  },
+  "dependencies": {
+    "@airplane/views": "^2.1.13",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.7",
+    "airplane": "^0.2.79",
+    "playwright": "^1.39.0"
   }
 }

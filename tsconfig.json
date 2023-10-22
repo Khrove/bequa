@@ -12,7 +12,8 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "jsx": "react-jsx"
     },
     "include": [
         "test",

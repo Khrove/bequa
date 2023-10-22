@@ -1,0 +1,3 @@
+javascript:
+  nodeVersion: "18"
+  preinstall: "npx playwright install --with-deps"

@@ -33,8 +33,6 @@ export const SearchOperations = (page: Page) => {
 
         if (await _doesFoundProductMatchWantedProduct(product)) {
             for (let i = 0; i < 2; i++) {
-                console.log('HERE!');
-                console.log(await _searchPage.getNthResult(i).locator('h2 div[title]').textContent());
                 products.push(await _searchPage.getNthResult(i).locator('h2 div[title]').textContent());
             }
         } else {
